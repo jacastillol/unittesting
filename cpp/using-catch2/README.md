@@ -27,4 +27,18 @@ Catch stands for C++ Automated Cases in Headers
 
 ### Getting starte with Catch2
 1. Download and install catch.hpp in your project
-1. 
+1. Write the must simple `test mytest.cpp`
+    ```C++
+        // Define the following macro once in the whole project
+        #define CATCH_CONFIG_MAIN
+        // Include the Catch2 only header
+        #include <catch.hpp>
+
+
+        // Write the most simple test
+        TEST_CASE("This is a test")
+        {
+            
+        }
+    ```
+1. Compile the code `g++ -I <path-to-catch.hpp> mytest.cpp -o mytests.bin`
