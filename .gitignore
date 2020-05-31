@@ -1,2 +1,4 @@
 cpp/deps
+deps
 .vscode
+*.o
